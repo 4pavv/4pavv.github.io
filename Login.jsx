@@ -9,7 +9,7 @@ const Login = ({ setIsAuthenticated }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (username === '4pav' && password === 'a') {
+    if (username === 'devdyzii' && password === 'admin123') {
       setIsAuthenticated(true);
     } else {
       setError('Invalid credentials');
